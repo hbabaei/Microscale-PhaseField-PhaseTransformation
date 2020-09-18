@@ -1,0 +1,59 @@
+# Listing of Parameters
+# ---------------------
+subsection Finite element system
+  # Displacement system polynomial order
+  set Polynomial degree =1 
+
+  # Gauss quadrature order
+  set Quadrature order  = 2
+end
+
+
+subsection Geometry
+  # Global refinement level
+  set Global refinement   =5 
+
+  # Global grid scaling factor
+  set Grid scale          = 1
+end
+
+
+subsection Material properties
+  # lambda austenite
+  set lambda austenite = 144.0
+
+  # mu austenite
+  set mu austenite = 74.0
+  
+  # lambda martensite
+  set lambda martensite = 144.0
+
+  # mu martensite
+  set mu martensite = 74.0
+   
+  # kinetic coeff
+  set kinetic coeff = 1e-5
+  
+  # interaction parameter
+  set interaction parameter = 2
+  
+  # thermal jump
+  set thermal jump = 3
+  
+  # threshold
+  set threshold = 0
+  
+ 
+  
+end
+
+
+subsection Time
+  # End time
+  set End time       = 25e5
+
+  # Time step size
+  set Time step size = 500
+end
+
+
